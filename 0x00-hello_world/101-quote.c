@@ -5,7 +5,7 @@
 /**
  * main - Entry point
  * Description - Print out a string
- * Return: 1
+ * Return: Always 1
  */
 
 int main(void)

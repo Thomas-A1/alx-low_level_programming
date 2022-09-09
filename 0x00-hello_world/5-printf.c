@@ -2,6 +2,7 @@
 
 /**
  * Main function: Prints out a string
+ * Description: The main function prints the string in the printf 
  * Returns: 0
  *
 */

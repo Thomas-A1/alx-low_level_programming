@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 /**
- *
  * main - Entry Point
  * printf task
  * Return: 0

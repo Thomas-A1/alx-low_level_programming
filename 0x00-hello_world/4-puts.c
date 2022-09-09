@@ -1,17 +1,17 @@
 #include <stdio.h>
 
 /**
-* The main function prints out a string
-* The main function returns 0
+* main - Prints the string in the put function
+* Return: 0
 */
+
 int main(void)
 
 
 {
 
+	puts("\"Programming is like building a multilingual puzzle");
 
-			puts("\"Programming is like building a multilingual puzzle");
-
-					return (0);
+	return (0);
 
 }

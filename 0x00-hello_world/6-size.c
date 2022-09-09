@@ -7,18 +7,29 @@
  */
 
 int main(void)
+
 {
-	int number;
-	long long int integer;
-	char character;
-	float decimal;
-	long int number2;
-	printf("Size of a char: %ld byte(s)\n", sizeof(character));
-	printf("Size of an int: %ld byte(s)\n", sizeof(number));
-	printf("Size of a long int: %ld byte(s)\n," sizeof(number2));
-	printf("Size of a long long int: %ld byte(s)\n", sizeof(integer));
-	printf("Size of a float: %ld byte(s)\n", sizeof(decimal));
-	return(0);
+
+	int a;
+
+	long long int ll;
+
+	char c;
+
+	float f;
+
+	long int b;
+
+	printf("Size of a char: %lu byte(s)\n", sizeof(c));
+
+	printf("Size of an int: %lu byte(s)\n", sizeof(a));
+
+	printf("Size of a long int: %lu byte(s)\n", sizeof(b));
+
+	printf("Size of a long long int: %lu byte(s)\n", sizeof(ll));
+
+	printf("Size of a float: %lu byte(s)\n", sizeof(f));
+
+	return (0);
 
 }
-

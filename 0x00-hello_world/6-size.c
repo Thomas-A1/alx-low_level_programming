@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * Main function is the entry point
+ * main- function is the entry point
  * Printing out the sizes of data types
  * Returns: 0
  */

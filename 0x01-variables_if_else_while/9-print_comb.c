@@ -9,18 +9,17 @@
 int main(void)
 
 {
-
-char digit = '0';
-while (digit <= '9')
-{
-	putchar(digit);
-	if (digit != '9')
+	int digit = '0';
+	while (digit <= '9')
 	{
-		putchar(',');
-		putchar(' ');
+		putchar(digit);
+		if (digit != '9')
+		{
+			putchar(',');
+			putchar(' ');
+		}
+		digit++;
 	}
-	digit++;
-}
-putchar('\n');
-return (0);
+		putchar('\n');
+		return (0);
 }

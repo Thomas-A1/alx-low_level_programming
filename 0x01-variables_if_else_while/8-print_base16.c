@@ -4,11 +4,10 @@
  * main - Entry of the program
  * Printing numbers of base 16 in lowercase
  * Return:0
- **/
+ */
 
 int main(void)
 {
-
 	int hex = '0';
 	int a_to_f = 'a';
 
@@ -22,9 +21,6 @@ int main(void)
 		putchar(a_to_f);
 		a_to_f++;
 	}
-	
 	putchar('\n');
-	
 	return (0);
-
 }

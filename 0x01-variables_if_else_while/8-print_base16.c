@@ -7,7 +7,6 @@
  */
 
 int main(void)
-
 {
 	int h = '0';
 	int a_to_f = 'a';
@@ -24,5 +23,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-
 }

@@ -4,14 +4,13 @@
 
 /**
  * main - Entry of the program
- * Description - The program gives a random value to n and checks the state of the last value
+ * Description - The program checks the state of the last value
  * Return: 0
  */
 
 int main(void)
 
 {
-
 int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;

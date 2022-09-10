@@ -8,26 +8,27 @@
 
 int main(void)
 {
-	int num1, num2;
-
-	for (num1 = 0; num1 <= '9'; num1++)
+	int n1 = 0; n2;
+	while (n1 <= 9)
 	{
-		for (num2 = 0; num2 <= '9'; num2++)
+		n2 = 0;
+		while(n2 <= 9)
 		{
-			if (num1 < num2)
+			if (n1 != n2 && n1 < n2)
 			{
-				putchar(num1);
-				putchar(num2);
-				
-				if (num1 != '8' || (num1 == '8' && num2 != '9'))
+				putchar(n1 + 48);
+				putchar(n2 + 48);
+
+				if (n1 + n2 != 17)
 				{
 					putchar(',');
 					putchar(' ');
 				}
 			}
+			++n2;
 		}
+		++n1;
 	}
 	putchar('\n');
 	return (0);
 }
-

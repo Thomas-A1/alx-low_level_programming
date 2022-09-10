@@ -10,8 +10,8 @@ int main(void)
 
 {
 
-char hex = '0';
-char a_to_f = 'a';
+int hex = '0';
+int a_to_f = 'a';
 while (hex <= '9')
 {
 putchar(hex);

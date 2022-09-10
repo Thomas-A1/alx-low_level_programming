@@ -1,20 +1,21 @@
 #include <stdio.h>
 
 /**
- * main - Entry of the program
- * Printing numbers of base 16 in lowercase
- * Return:0
+ * main - entry block
+ * Description: Printingnumbers of base 16 in lowercase
+ * Return:0 
  */
 
 int main(void)
+
 {
-	int hex = '0';
+	int h = '0';
 	int a_to_f = 'a';
 
-	while (hex <= '9')
+	while (h <= '9')		
 	{
-		putchar(hex);
-		hex++;	
+		putchar(h);
+		h++;
 	}
 	while (a_to_f <= 'f')
 	{
@@ -23,4 +24,5 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
+
 }

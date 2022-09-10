@@ -22,7 +22,7 @@ int main(void)
 				if (number1 != '8' || (number1 == '8' && number2 != '9'))
 				{
 					putchar(',');
-					putchar(' ';
+					putchar(' ');
 				}
 			}
 		}

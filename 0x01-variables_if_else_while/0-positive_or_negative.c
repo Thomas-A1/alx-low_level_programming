@@ -1,12 +1,13 @@
 #include <stdlib.h>
-
+#include <stdio.h>
 #include <time.h>
 
-/* more headers goes there */
+/**
+ * main - Entry of the program
+ * Description - The program generates a random value for n
+ * Return: 0
+ */
 
-
-
-/* betty style doc for function main goes there */
 
 int main(void)
 

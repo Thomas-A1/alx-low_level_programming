@@ -8,18 +8,18 @@
 
 int main(void)
 {
-	int number1, number2;
+	int num1, num2;
 
-	for (number1 = 0; number1 <= '9'; number1++)
+	for (num1 = 0; num1 <= '9'; num1++)
 	{
-		for (number2 = 0; number2 <= '9'; number2++)
+		for (num2 = 0; num2 <= '9'; num2++)
 		{
-			if (number1 < number2)
+			if (num1 < num2)
 			{
-				putchar(number1);
-				putchar(number2);
+				putchar(num1);
+				putchar(num2);
 				
-				if (number1 != '8' || (number1 == '8' && number2 != '9'))
+				if (num1 != '8' || (num1 == '8' && num2 != '9'))
 				{
 					putchar(',');
 					putchar(' ');
@@ -27,6 +27,7 @@ int main(void)
 			}
 		}
 	}
+	putchar('\n');
+	return (0);
 }
-putchar('\n');
-return (0);
+

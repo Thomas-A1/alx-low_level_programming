@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- * print_alpbabet_x10: Function to print characters 10 times
- *
+ * print_alpbabet_x10: function to print characters 10 times
  * Return: 0
  */
 

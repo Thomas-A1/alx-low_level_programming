@@ -19,7 +19,8 @@ int main(void)
 		if (n2 != 20365011074)
 		{
 			printf("%ld, ", n2);
-		}else
+		}
+		else
 		{
 			printf("%ld\n", n2);
 		}
@@ -28,4 +29,4 @@ int main(void)
 		n3 = next;
 	}
 	return (0);
-}	
+}

@@ -12,7 +12,7 @@ int main(void)
 	long int n1, n2, n3, next;
 
 	n2 = 1;
-	m3 = 2;
+	n3 = 2;
 
 	for (n1 = 1; n1 <= 50; ++n1)
 	{

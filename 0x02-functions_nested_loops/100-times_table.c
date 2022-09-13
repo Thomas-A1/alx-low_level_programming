@@ -2,40 +2,40 @@
 
 /**
  * print_times_table - prints time table of n
- * @num: Take integer as a parameter
+ * @n: take number input
  * Return: void
  */
 
-void print_times_table(int num)
-{
-	int product, mult, number;
+void print_times_table(int n)
 
-	if(num <= 15 && num >= 0)
+{
+	int prod, mult, num;
+
+	if (n <= 15 && n >= 0)
 	{
-		for (number = 0; number <= num; ++number)
+		for (num = 0; num <= n; ++num)
 		{
 			_putchar(48);
-			for (mult = 1; mult <= num; ++ mult)
+			for (mult = 1; mult <= n; ++mult)
 			{
 				_putchar(',');
 				_putchar(',');
-
-				product = number * mult;
-
-				if (product <= 9)
+				
+				prod = num * mult;
+				
+				if (prod <= 9)
 					_putchar(' ');
-				if (product <= 99)
+				if (prod <= 99)
 					_putchar(' ');
-				if (product >= 100)
+				if (prod >= 100)
 				{
-					_putchar((product / 100) + 48);
-					_putchar((product / 10) % 10 +48);
-				}
-				else if (product <= 99 && product >= 10)
-					_putchar((product % 10) + 48);
-				_putchar((product % 10) + 48);
+					_putchar((prod / 100) + 48);
+					_putchar((prod / 10) % 10 + 48);
+				}else if (prod <= 99 && prod >= 10)
+					_putchar((prod % 10) + 48);
+				_putchar((prod % 10) + 48);
 			}
 			_putchar('\n');
 		}
-	}
+	}	
 }

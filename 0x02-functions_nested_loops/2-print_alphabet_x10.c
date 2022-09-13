@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_alpbabet_x10 - function to print characters 10 times
- * This function prints characters times 10
+ * print_alphabet_x10 - 10 times Alphabet in lowercase
+ * 
  * Return: 0
  */
 

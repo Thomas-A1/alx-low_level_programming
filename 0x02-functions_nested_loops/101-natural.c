@@ -21,11 +21,11 @@ int main(void)
 	{
 		if ((num % 3) == 0)
 		{
-			sum_of_3 = sum_of_3 + i;
+			sum_of_3 = sum_of_3 + num;
 		}
 		else if ((num % 5) == 0)
 		{
-			sum_of_5 = sum_of_5 + i;
+			sum_of_5 = sum_of_5 + num;
 		}
 	}
 	sum = sum_of_3 + sum_of_5;

@@ -2,7 +2,7 @@
 
 /**
  * print_alpbabet_x10 - function to print characters 10 times
- *
+ * This function prints characters times 10
  * Return: 0
  */
 

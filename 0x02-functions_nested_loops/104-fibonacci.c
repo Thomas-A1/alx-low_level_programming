@@ -10,11 +10,10 @@
 int main(void)
 {
 	unsigned long int i, j, k, t1, t2, q1, q2;
+	
 	j = 1;
 	k = 2;
-	
 	printf("%lu", j);
-	
 	for (i = 1; i < 91; i++)
 	{
 		printf(", %lu", k);

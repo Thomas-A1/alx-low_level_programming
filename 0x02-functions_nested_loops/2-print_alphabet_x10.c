@@ -2,7 +2,6 @@
 
 /**
  * print_alphabet_x10 - 10 times Alphabet in lowercase
- * 
  * Return: 0
  */
 

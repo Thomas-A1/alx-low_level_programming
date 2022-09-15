@@ -2,36 +2,39 @@
 #include "main.h"
 
 /**
- * print_triangle - function that prints a triangle
- * @size: size parameter of the triangle
+ * main - prints Fizz for int divisible by 3 or Buzzz divisible by 5
+ *
  * Return: void
  */
 
-void print_triangle(int size)
+int main(void)
 {
-	int inc1, inc2;
+	int i;
 
-	if (size > 0)
+	for (i = 1; i <= 100; i++)
 	{
-		for (inc1 = 1; inc1 <= size; inc1++)
+		if (i % 3 == 0 && i % 5 != 0)
 		{
-			for ((inc2 = size - inc1); inc2 > 0; inc2--)
-			{
-				putchar(' ');
-			}
-
-			for (inc2 = 0; inc2 < inc1; inc2++)
-			{
-				putchar("#");
-			}
-
-			if (inc1 == size)
-			{
-				continue;
-			}
-
-			putchar('\n');
+			printf("Fizz");
 		}
+		else if (i % 3 != 0 && i % 5 == 0)
+		{
+			printf("Buzz");
+		}
+		else if (i % 3 == 0 && i % 5 == 0)
+		{
+			printf("FizzBuzz");
+		}
+		else
+		{
+			printf("%d", i);
+		}
+		if (i != 100)
+		{
+			putchar(' ');
+		}
+		else
+			putchar('\n');
 	}
-	putchar('\n');
+	return (0);
 }

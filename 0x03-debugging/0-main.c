@@ -1,15 +1,11 @@
 #include "main.h"
 
 /**
- * main - Entry program that checks if integer is positive
- * or negative
+ * main - Entry program that checks if integer is positive or negative
  * Return: 0
  */
 
-
-
 int main(void)
-
 {
 	int i;
 

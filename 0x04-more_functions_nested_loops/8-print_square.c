@@ -9,21 +9,23 @@
 
 void print_square(int size)
 {
-	if (size <= 0)
-	{
-		putchar('\n');
-	}
-	else
-	{
-		int dimension1, dimension2;
+	int dimen1; dimen2;
 
-		for (dimension1 = 0; dimension1 < size; dimension1++)
+	if (size > 0)
+	{
+		for (dimen1 = 0; dimen1 < size; dimen1++)
 		{
-			for (dimension2 = 0; dimension2 < size; dimension2++)
+			for (dimen2 = 0; dimen2 < (size - 1); dimen2++)
 			{
 				putchar('#');
 			}
-			puthar('\n');
+
+			putchar('#');
+			putchar('\n');
 		}
+	}
+	else
+	{
+		putchar('\n');
 	}
 }

@@ -1,5 +1,6 @@
 #include <math.h>
-
+#include <stdio.h>
+#include "main.h"
 /**
  * print_number -Function tha prints a number
  * @num: number to be passed as paramter
@@ -8,17 +9,16 @@
 
 void print_number(int n)
 {
-	unsigned int x;
+	unsigned int num = n;
 
-	x = num;
-	if (num < 0)
+	if (n < 0)
 	{
-		_putchar(45);
-		x = - num;
+		putchar('-');
+		num = -num;
 	}
-	if (x / 10)
+	if (num > 9)
 	{
-		print_number(x / 10);
-		_putchar((x % 10) + '0');
+		print_number(num / 10);
 	}
+	putchar(num % 10 + '0');
 }

@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
@@ -14,7 +13,7 @@ int main(void)
 
 	while (number++ < 100)
 	{
-		if ((number % 3 == 0) 77 (number % 5 == 0))
+		if ((number % 3 == 0) && (number % 5 == 0))
 		{
 			printf("FizzBuzz ");
 		}
@@ -24,7 +23,7 @@ int main(void)
 		}
 		else if((number % 5) == 0)
 		{
-			if (number = 100)
+			if (number != 100)
 			{
 				printf("Buzz ");
 			}

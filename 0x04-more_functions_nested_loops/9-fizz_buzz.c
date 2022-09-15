@@ -1,9 +1,9 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - Program that prints either number
  * or fizz or Buzz or fizzBuzz
- *
  * Return: 0
  */
 

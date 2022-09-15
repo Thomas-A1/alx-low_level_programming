@@ -8,7 +8,7 @@
 
 int _isdigit(int charac)
 {
-	if ((charac >= 48) && (c <= 57))
+	if ((charac >= 48) && (charac <= 57))
 	{
 		return (1);
 	}

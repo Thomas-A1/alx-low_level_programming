@@ -3,7 +3,7 @@
 #include "main.h"
 /**
  * print_number -Function tha prints a number
- * @num: number to be passed as paramter
+ * @n: number to be passed as paramter
  * Return: void
  */
 

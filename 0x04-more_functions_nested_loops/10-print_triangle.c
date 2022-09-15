@@ -21,7 +21,7 @@ else
 	{
 		for (j = 1; j <= i; j++)
 		{
-			putchar(' ');
+			putchar('');
 		}
 
 		for (j = 1; j <= i; j++)

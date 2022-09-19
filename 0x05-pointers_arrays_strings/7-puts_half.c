@@ -8,18 +8,14 @@
 
 void puts_half(char *str)
 {
-	int a, b, c;
+	int x, y, i;
 
-	a = strlen(str);
-	if (a % 2 == 1)
-	{
-		b = a / 2 + 1;
-	}
+	x = strlen(str);
+	if (x % 2 == 1)
+		y = x / 2 + 1;
 	else
-	{
-		b = a / 2;
-	}
-	for (c = b; c < a; c++)
-		_putchar(str[c]);
-	_putcharr('\n');
+		y = x / 2;
+	for (i = y; i < x; i++)
+		_putchar(str[i]);
+	_putchar('\n');
 }

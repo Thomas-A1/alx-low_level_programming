@@ -2,14 +2,14 @@ nclude "main.h"
 
 /**
  * _strspn - Gets the length of a prefix substring
- * @s: String to passed as parameter
- * @accept: String to be compared with
- * Return: number of bytes of s in accept string
+ * @s: string to be passed as parameter
+ * @accept: string to be compared with
+ * Return: 0
  */
 
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int i = 0;
+	unsigned int n = 0;
 	int j;
 
 	while (*s)
@@ -18,7 +18,7 @@ unsigned int _strspn(char *s, char *accept)
 		{
 			if (*s == accept[j])
 			{
-				i++;
+				n++;
 				break;
 			}
 			else if (accept[j + 1] == '\0')
@@ -26,5 +26,5 @@ unsigned int _strspn(char *s, char *accept)
 		}
 		s++;
 	}
-	return (i);
+	return (n);
 }

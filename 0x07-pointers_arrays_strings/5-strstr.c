@@ -9,9 +9,8 @@
 
 char *_strstr(char *haystack, char *needle)
 {
-	int i = 0;
 
-	for (i = 0; *haystack != '\0'; haystack++)
+	for (; *haystack != '\0'; haystack++)
 	{
 		char *one = haystack;
 		char *two = needle;

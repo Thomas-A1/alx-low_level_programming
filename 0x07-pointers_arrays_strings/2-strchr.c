@@ -4,10 +4,10 @@
  * _strchr - locates a charcter in a string
  * @s: string to check
  * @c: character to inspect
- * Return: pointer to spot in s with c or null
+ * Return: 0
  */
 
-char *_strchr(char *str, char c)
+char *_strchr(char *s, char c)
 {
 	int i;
 

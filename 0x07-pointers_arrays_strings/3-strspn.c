@@ -7,7 +7,7 @@ nclude "main.h"
  * Return: number of bytes of s in accept string
  */
 
-unsigned int_strspn(char *s, char *accept)
+unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int i, j;
 

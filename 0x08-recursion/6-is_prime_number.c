@@ -16,7 +16,8 @@ int is_prime_number(int num)
 
 /**
  * is_prime - returns1 if n is prime
- * @n: number passed as paramter
+ * @n: number passed as parameter
+ * @s: Value to be checked from
  * Return: 1 or 0 if otherwise
  */
 int is_prime(int n, int s)

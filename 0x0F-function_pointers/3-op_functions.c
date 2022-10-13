@@ -11,7 +11,6 @@ int op_add(int a, int b)
 {
 	return (a + b);
 }
-
 /**
  * op_sub - return difference of two numbers
  * @a: int parameter
@@ -23,7 +22,6 @@ int op_sub(int a, int b)
 {
 	return (a - b);
 }
-
 /**
  * op_mul - return the product of two numbers
  * @a: integer
@@ -35,7 +33,6 @@ int op_mul(int a, int b)
 {
 	return (a * b);
 }
-
 /**
  * op_div - return the quotient of two numbers
  * @a: int parameter
@@ -52,7 +49,6 @@ int op_div(int a, int b)
 	}
 	return (a / b);
 }
-
 /**
  * op_mod - return the remainder of a division
  * @a: int parameter

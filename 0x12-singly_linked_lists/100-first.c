@@ -5,6 +5,8 @@
  * before_main - Prints before main
  *
  *
+ *
+ *
  * Return: void
  */
 void __attribute__((constructor)) before_main()

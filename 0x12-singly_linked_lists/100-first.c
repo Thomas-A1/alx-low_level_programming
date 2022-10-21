@@ -4,13 +4,10 @@
 /**
  * before_main - Prints before main
  *
- *
- *
- *
  * Return: void
  */
 void __attribute__((constructor)) before_main()
 {
-	printf("Tough to code in C\n");
-	printf("Yet I will not quit\n");
+	printf("You're beat! and yet, you must allow");
+	printf(",\nI bore my house upon my back!\n");
 }

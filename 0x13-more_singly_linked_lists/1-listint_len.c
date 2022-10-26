@@ -5,7 +5,7 @@
  * @h: the head of a linked list
  * Return: the number of elements
  */
-size listint_len(const listint_t *h)
+size_t listint_len(const listint_t *h)
 {
 	const listint_t *cursor = h;
 	size_t counter = 0;
